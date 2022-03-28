@@ -20,6 +20,10 @@ body {
   width: 100%;
 }
 
+li {
+  font-family: "Courier New", Courier, monospace;
+}
+
 /* Nav-början */
 nav a {
   display: inline-block;
