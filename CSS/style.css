@@ -315,21 +315,28 @@ footer img {
   transition-duration: 0.5s;
 }
 
-#bakåt {
+.bakåt {
+  display: block;
+
   margin-top: 5px;
-  width: 100px;
+  width: 75px;
   height: 20px;
 
   font-size: 12px;
+  text-align: center;
   background-color: rgb(75, 8, 8);
 
   color: rgb(233, 231, 231);
   text-shadow: 0px 0px 10px white;
   cursor: pointer;
+
+  border: 1px solid black;
+  box-shadow: 4px 3px 10px white;
 }
 
-#bakåt:hover {
-  transform: scale(0.98);
+.bakåt:hover {
+  transform: scale(0.9);
+  transition-duration: 0.5s;
 }
 
 .speciell2 {
